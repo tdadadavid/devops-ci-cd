@@ -1,5 +1,9 @@
 {
+  "scripts": {
+    "test": "node --test index.spec.js"
+  },
   "dependencies": {
-    "superagent": "^8.0.9"
+    "superagent": "^8.0.9",
+    "supertest": "^6.3.3"
   }
 }

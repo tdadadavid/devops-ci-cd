@@ -1,14 +1,8 @@
 const http = require('http');
+const app = require('./app');
 
 
-const server = http.createServer((req, res) => {
-    res.statusCode = 200;
-    const data = JSON.stringify({
-        message: "Hello world",
-        status: 200
-    })
-    res.end(data);
-})
+const server = http.createServer(app);
 
 
 server.listen(4500, () => {

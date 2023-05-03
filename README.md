@@ -16,4 +16,4 @@ Learning and practicing CI/CD
 ```
 
 ### NOTE
-- your node version should be >= 18.*.*
+- your node version should be >= 16.X.X
